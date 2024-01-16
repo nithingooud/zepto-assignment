@@ -1,0 +1,52 @@
+/* MultiSelect.css */
+
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50rem;
+  margin: auto;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 8px;
+}
+
+.chip {
+  background-color: #e0e0e0;
+  border-radius: 4rem;
+  padding: 4px 8px;
+  margin: 4px;
+  display: flex;
+  align-items: center;
+}
+
+input {
+  border: none;
+  outline: none;
+  padding: 8px;
+  margin-top: 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+.categories {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #ccc;
+  width: calc(100% - 16px);
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.categories li:hover {
+  background-color: #f0f0f0;
+}
+
